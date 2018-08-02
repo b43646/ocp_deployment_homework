@@ -6,7 +6,7 @@ import sys
 
 
 def install():
-    os.system("dir")
+    os.system("scripts/install.sh")
 
 
 def cicd():
