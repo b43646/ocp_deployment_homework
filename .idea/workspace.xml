@@ -2,41 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7ce939-6f0c-4006-8c4b-f64bdd98b005" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/__init__.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/__init__.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/__init__.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/filter_plugins/__init__.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/filter_plugins/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/filter_plugins/filters.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/filter_plugins/filters.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/tasks/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/tasks/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/tasks/param-file-regex-replace.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/tasks/param-file-regex-replace.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/tasks/update-galaxy-requirements.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/tasks/update-galaxy-requirements.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/make-applier-projects-unique/tasks/update-params-file.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/make-applier-projects-unique/tasks/update-params-file.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/README.md" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/__init__.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/defaults/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/defaults/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/filter_plugins/__init__.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/filter_plugins/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/filter_plugins/applier-filters.py" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/filter_plugins/applier-filters.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/handlers/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/handlers/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/check-file-location.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/check-file-location.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/copy-inventory-content.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/copy-inventory-content.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/copy-inventory-dir.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/copy-inventory-dir.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/copy-inventory-entry.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/copy-inventory-entry.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/copy-inventory-file.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/copy-inventory-file.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/copy-inventory-to-remote.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/copy-inventory-to-remote.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/install-dependencies.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/install-dependencies.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/pre-post-step.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/pre-post-step.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/process-content.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/process-content.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tasks/process-one-entry.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tasks/process-one-entry.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tests/README.md" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tests/README.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tests/inventory/hosts" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tests/inventory/hosts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tests/roles" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tests/roles" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-applier/tests/test.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-applier/tests/test.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-labels/tasks/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-labels/tasks/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-replicas-ready/defaults/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-replicas-ready/defaults/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-replicas-ready/tasks/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-replicas-ready/tasks/main.yml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/resources/openshift-applier/roles/openshift-route-status/tasks/main.yml" afterPath="$PROJECT_DIR$/resources/openshift-applier/playbooks/roles/openshift-route-status/tasks/main.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/multitenancy.sh" afterPath="$PROJECT_DIR$/scripts/multitenancy.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="multitenancy.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="multitenancy.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="299">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -117,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openshift-cluster-seed.yml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="openshift-cluster-seed.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/openshift-applier/playbooks/openshift-cluster-seed.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
@@ -152,13 +118,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/multitenancy.sh" />
         <option value="$PROJECT_DIR$/scripts/uninstall.sh" />
         <option value="$PROJECT_DIR$/cli.py" />
         <option value="$PROJECT_DIR$/scripts/install.sh" />
         <option value="$PROJECT_DIR$/scripts/pv.sh" />
         <option value="$PROJECT_DIR$/scripts/test.sh" />
         <option value="$PROJECT_DIR$/scripts/cicd.sh" />
+        <option value="$PROJECT_DIR$/scripts/multitenancy.sh" />
       </list>
     </option>
   </component>
@@ -257,8 +223,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -307,14 +274,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="34" lean-forward="false" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="19" lean-forward="false" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -379,6 +338,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
           <caret line="3" column="15" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
