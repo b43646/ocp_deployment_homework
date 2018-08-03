@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7ce939-6f0c-4006-8c4b-f64bdd98b005" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cicd.sh" afterPath="$PROJECT_DIR$/scripts/cicd.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/install.sh" afterPath="$PROJECT_DIR$/scripts/install.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pv.sh" afterPath="$PROJECT_DIR$/scripts/pv.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test.sh" afterPath="$PROJECT_DIR$/scripts/test.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -91,8 +89,8 @@
       <file leaf-file-name="cicd.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/cicd.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+            <state relative-caret-position="115">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -358,8 +356,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cicd.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
