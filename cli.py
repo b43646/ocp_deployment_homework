@@ -10,15 +10,15 @@ def install():
 
 
 def cicd():
-    os.system("dir")
+    os.system("scripts/cicd.sh")
 
 
 def multitenancy():
-    pass
+    os.system("scripts/multitenancy.sh")
 
 
 def uninstall():
-    pass
+    os.system("scripts/uninstall.sh")
 
 
 def test():

@@ -64,9 +64,11 @@ chmod +x ./pvs.sh
 
 cat /root/pvs/* | oc create -f -
 
+# check pv list
 oc get pv
 
-#ansible nodes -m shell -a "docker pull registry.access.redhat.com/openshift3/ose-recycler:latest"
-#ansible nodes -m shell -a "docker tag registry.access.redhat.com/openshift3/ose-recycler:latest registry.access.redhat.com/openshift3/ose-recycler:v3.9.30"
+# Fix NFS Persistent Volume Recycling
+ansible nodes -m shell -a "docker pull registry.access.redhat.com/openshift3/ose-recycler:latest"
+ansible nodes -m shell -a "docker tag registry.access.redhat.com/openshift3/ose-recycler:latest registry.access.redhat.com/openshift3/ose-recycler:v3.9.30"
 
 echo "Done!"
