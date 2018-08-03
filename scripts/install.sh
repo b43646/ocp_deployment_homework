@@ -55,7 +55,7 @@ fi
 
 ansible support1.$GUID.internal -m copy -a 'src=./scripts/pv.sh dest=~/pv.sh owner=root group=root mode=0744'
 
-ansible support1.$GUID.internal -m shell -a './pv.sh'
+ansible support1.$GUID.internal -m shell -a '~/pv.sh'
 
 ansible masters[0] -b -m fetch -a "src=/root/.kube/config dest=/root/.kube/config flat=yes"
 
