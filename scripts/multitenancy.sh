@@ -5,9 +5,9 @@ export GUID=`hostname | cut -d"." -f2`
 # 1. Create Users/Group
 
 ansible master1.$GUID.internal -m shell -a 'htpasswd -cb /etc/origin/master/htpasswd amy 123'
-ansible master1.$GUID.internal -m shell -a 'htpasswd -cb /etc/origin/master/htpasswd andrew 123'
-ansible master1.$GUID.internal -m shell -a 'htpasswd -cb /etc/origin/master/htpasswd brian 123'
-ansible master1.$GUID.internal -m shell -a 'htpasswd -cb /etc/origin/master/htpasswd betty 123'
+ansible master1.$GUID.internal -m shell -a 'htpasswd -b /etc/origin/master/htpasswd andrew 123'
+ansible master1.$GUID.internal -m shell -a 'htpasswd -b /etc/origin/master/htpasswd brian 123'
+ansible master1.$GUID.internal -m shell -a 'htpasswd -b /etc/origin/master/htpasswd betty 123'
 
 oc adm groups new alpha amy andrew
 oc adm groups new beta brian betty
@@ -36,7 +36,7 @@ ansible masters -m shell -a'systemctl stop atomic-openshift-master-api'
 ansible masters -m shell -a'systemctl stop atomic-openshift-master-controllers'
 
 ansible masters -m copy -a 'src=./scripts/custom_master.sh dest=~/custom_master.sh owner=root group=root mode=0744'
-ansible masters -m shell -a './custom_master.sh'
+ansible masters -m shell -a '~/custom_master.sh'
 
 ansible masters -m shell -a'systemctl start atomic-openshift-master-api'
 ansible masters -m shell -a'systemctl start atomic-openshift-master-controllers'
