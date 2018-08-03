@@ -5,9 +5,9 @@ oc new-app nodejs-mongo-persistent
 
 export GUID=`hostname|awk -F. '{print $2}'`
 
-sleep 30
+sleep 100
 
-curl http://nodejs-mongo-persistent-smoke-test.apps.$GUID.example.opentlc.com
+curl http://nodejs-mongo-persistent-smoke-test.apps.$GUID.example.opentlc.com | grep "Welcome to your Node.js application on OpenShift"
 
 ret=`echo $?`
 

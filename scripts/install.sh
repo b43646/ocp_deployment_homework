@@ -53,15 +53,15 @@ fi
 
 # 4. post-install
 
-ansible support1.$GUID.internal -m copy -a 'src=pv.sh dest=~/pv.sh mod=0744'
+ansible support1.$GUID.internal -m copy -a 'src=./scripts/pv.sh dest=~/pv.sh owner=root group=root mode=0744'
 
 ansible support1.$GUID.internal -m shell -a './pv.sh'
 
 ansible masters[0] -b -m fetch -a "src=/root/.kube/config dest=/root/.kube/config flat=yes"
 
-chmod +x ./pvs.sh
+chmod +x $PWD/scripts/pvs.sh
 
-./pvs
+$PWD/scripts/pvs.sh
 
 cat /root/pvs/* | oc create -f -
 

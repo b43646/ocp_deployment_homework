@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7ce939-6f0c-4006-8c4b-f64bdd98b005" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/cicd.sh" afterPath="$PROJECT_DIR$/scripts/cicd.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/install.sh" afterPath="$PROJECT_DIR$/scripts/install.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/pv.sh" afterPath="$PROJECT_DIR$/scripts/pv.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/test.sh" afterPath="$PROJECT_DIR$/scripts/test.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,8 +41,8 @@
       <file leaf-file-name="pv.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/pv.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="115">
+              <caret line="5" column="89" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="99" />
               <folding />
             </state>
           </provider>
@@ -48,8 +51,8 @@
       <file leaf-file-name="test.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+            <state relative-caret-position="391">
+              <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -75,21 +78,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="install.sh" pinned="false" current-in-tab="true">
+      <file leaf-file-name="install.sh" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/install.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="507">
+              <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cicd.sh" pinned="false" current-in-tab="false">
+      <file leaf-file-name="cicd.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/cicd.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
+            <state relative-caret-position="92">
+              <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hosts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/container-pipelines/basic-spring-boot/applier/inventory/hosts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,8 +119,10 @@
         <option value="$PROJECT_DIR$/scripts/multitenancy.sh" />
         <option value="$PROJECT_DIR$/scripts/uninstall.sh" />
         <option value="$PROJECT_DIR$/cli.py" />
-        <option value="$PROJECT_DIR$/scripts/cicd.sh" />
         <option value="$PROJECT_DIR$/scripts/install.sh" />
+        <option value="$PROJECT_DIR$/scripts/pv.sh" />
+        <option value="$PROJECT_DIR$/scripts/test.sh" />
+        <option value="$PROJECT_DIR$/scripts/cicd.sh" />
       </list>
     </option>
   </component>
@@ -145,6 +160,54 @@
             <path>
               <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
               <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="container-pipelines" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="container-pipelines" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-spring-boot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="container-pipelines" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="applier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="container-pipelines" type="462c0819:PsiDirectoryNode" />
+              <item name="basic-spring-boot" type="462c0819:PsiDirectoryNode" />
+              <item name="applier" type="462c0819:PsiDirectoryNode" />
+              <item name="inventory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="openshift-applier" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ocp_deployment_homework" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="openshift-applier" type="462c0819:PsiDirectoryNode" />
+              <item name="playbooks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ocp_deployment_homework" type="b2602c69:ProjectViewProjectNode" />
@@ -245,10 +308,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test.sh">
+    <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="15" />
+        <state relative-caret-position="621">
+          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/pv.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="89" lean-forward="false" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="99" />
           <folding />
         </state>
       </provider>
@@ -261,7 +332,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/pv.sh">
+    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="65" column="2" lean-forward="false" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/container-pipelines/basic-spring-boot/applier/inventory/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -269,26 +356,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/cicd.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/install.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="92">
+          <caret line="4" column="49" lean-forward="true" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
           <folding />
         </state>
       </provider>
