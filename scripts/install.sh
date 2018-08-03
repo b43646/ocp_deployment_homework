@@ -1,11 +1,12 @@
 #!/usr/bin/sh
 
+PWD=`pwd`
 
 # 1. update ansible hosts
 
 rm -f /etc/ansible/hosts
 
-cp ../resources/hosts /etc/ansible/
+cp $PWD/resources/hosts /etc/ansible/
 
 export GUID=`hostname | cut -d"." -f2`
 

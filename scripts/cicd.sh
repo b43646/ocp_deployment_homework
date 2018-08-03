@@ -1,3 +1,5 @@
 #!/usr/bin/sh
 
-ansible-playbook -i ../resources/container-pipelines/inventory/ ../resources/openshift-applier/playbooks/openshift-cluster-seed.yml
+PWD=`pwd`
+
+ansible-playbook -i $PWD/resources/container-pipelines/inventory/ $PWD/resources/openshift-applier/playbooks/openshift-cluster-seed.yml
