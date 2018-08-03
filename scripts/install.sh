@@ -10,7 +10,7 @@ cp $PWD/resources/hosts /etc/ansible/
 
 export GUID=`hostname | cut -d"." -f2`
 
-sed -i 's/27b0/$GUID/g' /etc/ansible/hosts
+sed -i "s/27b0/$GUID/g" /etc/ansible/hosts
 
 ansible localhost,all -m shell -a 'export GUID=`hostname | cut -d"." -f2`; echo "export GUID=$GUID" >> $HOME/.bashrc'
 
