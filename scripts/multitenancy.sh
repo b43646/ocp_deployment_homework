@@ -4,15 +4,15 @@ export GUID=`hostname | cut -d"." -f2`
 
 # 1. Create Users/Group
 
-ansible master1.$GUID.internal -m shell -a 'htpasswd -cb /etc/origin/master/htpasswd amy 123'
-ansible master1.$GUID.internal -m shell -a 'htpasswd -b /etc/origin/master/htpasswd andrew 123'
-ansible master1.$GUID.internal -m shell -a 'htpasswd -b /etc/origin/master/htpasswd brian 123'
-ansible master1.$GUID.internal -m shell -a 'htpasswd -b /etc/origin/master/htpasswd betty 123'
+ansible masters -m shell -a 'htpasswd -cb /etc/origin/master/htpasswd amy 123'
+ansible masters -m shell -a 'htpasswd -b /etc/origin/master/htpasswd andrew 123'
+ansible masters -m shell -a 'htpasswd -b /etc/origin/master/htpasswd brian 123'
+ansible masters -m shell -a 'htpasswd -b /etc/origin/master/htpasswd betty 123'
 
 oc adm groups new alpha amy andrew
 oc adm groups new beta brian betty
 
-# 2. Config ResourceQuota For Users
+# 2. Config ResourceQuota For Special Users
 
 for OCP_USERNAME in amy andrew brian betty; do
 

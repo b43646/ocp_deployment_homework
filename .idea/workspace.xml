@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a7ce939-6f0c-4006-8c4b-f64bdd98b005" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/install.sh" afterPath="$PROJECT_DIR$/scripts/install.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/custom_master.sh" afterPath="$PROJECT_DIR$/scripts/custom_master.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/multitenancy.sh" afterPath="$PROJECT_DIR$/scripts/multitenancy.sh" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +17,8 @@
       <file leaf-file-name="multitenancy.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="530">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="79" />
+            <state relative-caret-position="828">
+              <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -58,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/custom_master.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -136,10 +136,10 @@
         <option value="$PROJECT_DIR$/scripts/hpa.sh" />
         <option value="$PROJECT_DIR$/cli.py" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/scripts/custom_master.sh" />
         <option value="$PROJECT_DIR$/resources/template.yaml" />
-        <option value="$PROJECT_DIR$/scripts/multitenancy.sh" />
         <option value="$PROJECT_DIR$/scripts/install.sh" />
+        <option value="$PROJECT_DIR$/scripts/custom_master.sh" />
+        <option value="$PROJECT_DIR$/scripts/multitenancy.sh" />
       </list>
     </option>
   </component>
@@ -381,14 +381,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/custom_master.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="7" lean-forward="false" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/hpa.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -397,10 +389,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/custom_master.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/multitenancy.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="530">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="35" selection-end-column="79" />
+        <state relative-caret-position="828">
+          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding />
         </state>
       </provider>

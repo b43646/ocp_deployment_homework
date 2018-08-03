@@ -1,4 +1,4 @@
 
 #!/usr/bin/sh
 
-sed -i '/projectConfig/a\ \ projectRequestTemplate: "default/project-request"' /etc/origin/master/master-config.yaml
+sed -i 's/projectRequestTemplate.*/projectRequestTemplate\: \"default\/project-request\"/g' master-config.yaml
