@@ -1,4 +1,4 @@
-##### ocp_deployment_homework
+### ocp_deployment_homework
 
 ###### 1. Overview
 
