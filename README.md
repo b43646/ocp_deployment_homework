@@ -37,6 +37,8 @@ python cli.py install
 
 ###### 3. Test The Cluster
 
+> wait 100s
+
 ```
 
 python cli.py test
