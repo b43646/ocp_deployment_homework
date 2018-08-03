@@ -29,3 +29,14 @@ oc create clusterquota clusterquota-$OCP_USERNAME \
 
 done
 
+# 3. Customize Project Template With LimitRange
+oc create -f ./resources/template.yaml
+
+ansible masters -m shell -a'systemctl stop atomic-openshift-master-api'
+ansible masters -m shell -a'systemctl stop atomic-openshift-master-controllers'
+
+ansible masters -m copy -a 'src=./scripts/custom_master.sh dest=~/custom_master.sh owner=root group=root mode=0744'
+ansible masters -m shell -a './custom_master.sh'
+
+ansible masters -m shell -a'systemctl start atomic-openshift-master-api'
+ansible masters -m shell -a'systemctl start atomic-openshift-master-controllers'
